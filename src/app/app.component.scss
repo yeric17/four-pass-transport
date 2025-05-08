@@ -268,7 +268,9 @@
     }
 
     &__paragraph {
-        max-width: 70ch;
+        max-width: 50ch;
+        padding-bottom: .5rem;
+        font-weight: 300;
     }
 }
 
