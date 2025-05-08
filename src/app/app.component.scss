@@ -262,6 +262,14 @@
             }
         }
     }
+
+    &__title {
+        padding-bottom: 1rem;
+    }
+
+    &__paragraph {
+        max-width: 70ch;
+    }
 }
 
 @keyframes pathShine {
