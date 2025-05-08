@@ -1,6 +1,10 @@
 {
   "name": "four-pass-transport",
   "version": "0.0.0",
+  "author": {
+    "name": "Carlos Yeric Fonseca Rios",
+    "email": "yeric17@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
