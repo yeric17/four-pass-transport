@@ -1,12 +1,10 @@
 import { Component, inject, linkedSignal, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { FourPassTransportService } from './services/four-pass-transport.service';
-import { JsonPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [JsonPipe, FormsModule],
+  imports: [FormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
